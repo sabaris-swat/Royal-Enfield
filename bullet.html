@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .bg-logo-container {
+            padding-left: 25%;
+        }
+
+        .text-container {
+            text-align: center;
+            color: rgba(245, 144, 44, 0.749);
+        }
+
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            color: rgba(245, 144, 44, 0.749);
+        }
+
+        .variant-container {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .bg-logo-container {
+                padding-left: 0;
+            }
+
+            .video-container {
+                flex-direction: column-reverse;
+            }
+
+            .text-container,
+            .video-container,
+            .variant-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid">
+            <img src="https://th.bing.com/th/id/OIP.tO_TFeqdQZcXRuxaf1Bm9gHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" height="30px"width="30px" alt="logo">
+          <a  style="color: red; ;"  class="navbar-brand fst-italic fw-bold px-3 " href="index.html">ROYAL ENFIELD</a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MODELS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="meteor.html">METEOR-350</a></li>
+                  <li><a class="dropdown-item" href="bullet.html">BULLET-350</a></li>
+                  <li><a class="dropdown-item" href="classic350.html">CLASSIC-350</a></li>
+                  
+                  <li><hr class="dropdown-divider"></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="booking.html">FOR BOOKING </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+             
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<body>
+
+    <div class="bg-logo-container">
+        <img src="bglogo.gif" alt="background images" class="img-fluid p-5">
+    </div>
+
+    <div class="text-container">
+        <h3>Nine decades of unbroken tradition. Nine decades of resilient service — through wars and weddings, mountains
+            and gullies. Like its riders, this legendary machine is made of soul, sinew, and steel. The 2023 Bullet. New
+            heart. Same beat.</h3>
+    </div>
+
+    <div  class="video-container ">
+        <div>
+            <div class="h1 text-white fw-bold">THE STEEL</div>
+            <p>An iconic silhouette, a steadfast chassis and an unwavering heart. In the last ninety years, the Bullet 350
+                has established itself as a resolute ally for the bravest of the brave. From the unforgiving
+                battlefields of the 20th century to the most treacherous terrain of the Himalayas, it has proven its
+                resilience over and over, becoming a symbol of strength and fortitude</p>
+        </div>
+        <center>
+        <div>
+        <video autoplay loop src="https://www.royalenfield.com/content/dam/royal-enfield/bullet/banners/steel/steel-final.mp4" width="700px" class="img-fluid "></video>
+    </center>
+    </div>
+        
+    </div>
+
+    <div class="video-container ">
+        <div>
+            <h1>THE BLOOD-LINE----</h1>
+            <p>An iconic silhouette, a steadfast chassis and an unwavering heart. In the last ninety years, the Bullet 350
+                has established itself as a resolute ally for the bravest of the brave. From the unforgiving
+                battlefields of the 20th century to the most treacherous terrain of the Himalayas, it has proven its
+                resilience over and over, becoming a symbol of strength and fortitude</p>
+        </div>
+        <center>
+        <video autoplay loop src="https://www.royalenfield.com/content/dam/royal-enfield/bullet/banners/bloodline/bloodline-final.mp4" width="700px" class="img-fluid"></video>
+    </center>
+    </div>
+
+    <hr>
+
+    <div  style="color: rgba(245, 144, 44, 0.749);font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="display-1 text-center ">VARIANTS</div>
+
+    <div class="row" style="display: flex; padding: 20px;">
+        <div class="col-12 col-md-6">
+            <img src="https://www.royalenfield.com/content/dam/royal-enfield/bullet/colours/the-standard-black/the-standard-black-0000.webp" alt="nova" width="100%">
+        </div>
+        <div class="col-12 col-md-6 align-self-center">
+            <div class="h3 p-5 text-center text-white">STANDARD-VARIENT
+                EX-SHOWROOM- 2,00,000
+            </div>
+            <div class="text-center">
+                <a class="btn btn-success text-white" href="booking.html" role="button">Book Now</a>
+            </div>
+        </div>
+    </div>
+
+
+        <img src="https://www.royalenfield.com/content/dam/royal-enfield/bullet/main-banners/gma-desc-new.png" alt="background images" class="img-fluid">
+    </div>
+
+
+
+    
+    <footer style="color: grey">
+        <div class="h1 text-center fw-bold">ABOUT US</div>
+        <div class="footer-section text-center">
+          <div class="about-us">
+              <h4>About Royal Enfield</h4>
+              <p>Welcome to Royal Enfield, where timeless design meets modern performance. </p>
+             
+              <p>. Our bikes are more than machines;</p>
+              <p>Join us on the road– Built for the Free Spirit.</p>
+          </div>
+          <div class="contact-us">
+              <h4>Contact Us</h4>
+              <p>Have questions or need assistance? Feel free to reach out to our customer support team.</p>
+              <p>Email: support@royalenfield.com</p>
+              <p>Phone: 1-800-ROYALBIKE</p>
+              <p>Visit our <a href="/contact">Contact Page</a> for more options.</p>
+          </div>
+      </div>
+      
+      
+    
+    <hr>
+    <div class="container d-flex justify-content-between">
+    <div style="color: white;" > <p>
+      © 2023. Royal Enfield. | *T&C apply. Images shown here may differ from the actual product.</p>
+     
+    </div>
+   <div style="color: aliceblue;;display:inline;justify-content: space-between;">
+      <i class="bi bi-google"></i>
+      <i class="bi bi-youtube"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-twitter"></i>
+    </div>
+      
+      
+    </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.hi{
+    transition: all 0.5s;
+    
+}
+
+.hii:hover{
+transform: scale(1.2);
+background-color:whitesmoke
+}
+.hii{
+    background-color: black;
+    color: gray;
+}

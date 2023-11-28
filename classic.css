@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+    color: black;
+}
+
+.bg-logo-container {
+    padding-left: 25%;
+}
+
+.text-container {
+    text-align: center;
+    ;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    ;
+}
+
+.variant-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .bg-logo-container {
+        padding-left: 0;
+    }
+
+    .video-container {
+        flex-direction: column-reverse;
+    }
+
+    .text-container,
+    .video-container,
+    .variant-container {
+        padding: 20px;
+    }
+} 
